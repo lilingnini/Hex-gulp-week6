@@ -1,12 +1,12 @@
-$(function() {
+"use strict";
+
+$(function () {
   console.log('Hello Bootstrap5');
 });
-
-
 var swiper = new Swiper(".learn-swiper", {
   autoplay: {
-      delay:1200,
-      disableOnInteraction: false,
+    delay: 1200,
+    disableOnInteraction: false
   },
   speed: 1200,
   loop: true,
@@ -14,41 +14,34 @@ var swiper = new Swiper(".learn-swiper", {
   slidesPerView: 3,
   //多欄
   breakpoints: {
-      768: {
-          slidesPerView: 6
-      },
-      992: {
-          slidesPerView: 9
-      }
+    768: {
+      slidesPerView: 6
+    },
+    992: {
+      slidesPerView: 9
+    }
   }
-
 });
-
-
-const swiper2 = new Swiper('.feedback-swiper', {
+var swiper2 = new Swiper('.feedback-swiper', {
   // Optional parameters
   effect: 'fade',
   fadeEffect: {
     crossFade: true
   },
-  
   // If we need pagination
   pagination: {
-    el: '.swiper-pagination',
+    el: '.swiper-pagination'
   },
-
   // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+    prevEl: '.swiper-button-prev'
+  }
 });
-
-
 var swiper = new Swiper(".lesson-swiper", {
   autoplay: {
-      delay:1200,
-      disableOnInteraction: false,
+    delay: 1200,
+    disableOnInteraction: false
   },
   speed: 1200,
   loop: true,
@@ -56,12 +49,12 @@ var swiper = new Swiper(".lesson-swiper", {
   slidesPerView: 3,
   //多欄
   breakpoints: {
-      768: {
-          slidesPerView: 3
-      },
-      992: {
-          slidesPerView: 6
-      }
+    768: {
+      slidesPerView: 3
+    },
+    992: {
+      slidesPerView: 6
+    }
   }
-
 });
+//# sourceMappingURL=all.js.map
